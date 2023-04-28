@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shipping</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Sora:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
+
+    <link rel="stylesheet" href="scrollbutton.css">
+    <link rel="stylesheet" href="./pages/service1.css" />
+    
+</head>
+<body>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">
+    <i class="fa fa-arrow-up"></i>
+  </button>
+    <div class="main-conatiner">
+        <nav  class="fixed-top navbar-default">
+            <div class="top_header">
+              <div class="top-menu-content container">
+                <div>
+                  <svg
+                    width="36"
+                    height="36"
+                    viewBox="0 0 36 36"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect width="36" height="36" fill="black" fill-opacity="0.2" />
+                    <path
+                      opacity="0.4"
+                      d="M23.2678 14.5611L19.0024 17.9954C18.1952 18.6282 17.0636 18.6282 16.2564 17.9954L11.9543 14.5611"
+                      stroke="white"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M12.8879 9H22.3158C23.6752 9.01525 24.969 9.58993 25.896 10.5902C26.823 11.5905 27.3022 12.929 27.222 14.2941V20.822C27.3022 22.1871 26.823 23.5256 25.896 24.5259C24.969 25.5262 23.6752 26.1009 22.3158 26.1161H12.8879C9.96796 26.1161 8 23.7407 8 20.822V14.2941C8 11.3754 9.96796 9 12.8879 9Z"
+                      stroke="white"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  <span> info@Development-cart.com</span>
+                </div>
+                <div>
+                  <svg
+                    width="36"
+                    height="36"
+                    viewBox="0 0 36 36"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect width="36" height="36" fill="black" fill-opacity="0.2" />
+                    <path
+                      opacity="0.4"
+                      d="M20.353 8.5C24.054 8.911 26.978 11.831 27.393 15.532"
+                      stroke="white"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      opacity="0.4"
+                      d="M20.353 12.043C22.124 12.387 23.508 13.772 23.853 15.543"
+                      stroke="white"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M17.0315 18.4724C21.0205 22.4604 21.9254 17.8467 24.4653 20.3848C26.9138 22.8328 28.3222 23.3232 25.2188 26.4247C24.8302 26.737 22.3613 30.4943 13.6845 21.8197C5.00659 13.144 8.76157 10.6724 9.07394 10.2839C12.1838 7.17385 12.6668 8.58938 15.1154 11.0373C17.6541 13.5765 13.0425 14.4844 17.0315 18.4724Z"
+                      stroke="white"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  <span>+91 9876543210</span>
+                </div>
+                <div>
+                  <svg
+                    width="36"
+                    height="36"
+                    viewBox="0 0 36 36"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect width="36" height="36" fill="black" fill-opacity="0.2" />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M10.239 16.3913C10.2534 12.1507 13.7028 8.72471 17.9434 8.73912C22.1839 8.75353 25.6099 12.2029 25.5955 16.4435V16.5304C25.5434 19.2869 24.0042 21.8348 22.1173 23.8261C21.0381 24.9467 19.833 25.9388 18.526 26.7826C18.1765 27.0849 17.6581 27.0849 17.3086 26.7826C15.3601 25.5143 13.6499 23.9131 12.2564 22.0522C11.0144 20.4294 10.3092 18.4597 10.239 16.4174L10.239 16.3913Z"
+                      stroke="white"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <circle
+                      opacity="0.4"
+                      cx="17.9172"
+                      cy="16.5391"
+                      r="2.46087"
+                      stroke="white"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  <span>Regency Palace, Scheme no 54, Vijay Nagar, Indore (M.P)</span
+                  >s
+                </div>
+              </div>
+            </div>
+            <div class="sec-header">
+              <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                  <img src="./Images/image-logo.png" alt="" />
+                  <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                  >
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+      
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto menu-ul">
+                      <li class="nav-item">
+                        <a class="nav-link text-light" href="./index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-light" href="./index.html#service_nav">Services</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-light" href="./index.html#about-us_nav">About US</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-light" href="./ContactUs.html">Contact Us</a>
+                      </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                      <button class="nav-btn"><a style="background-color:#00AEEF !important;color: #FFFFFF; text-decoration: none !important;" href="./ContactUs.html">Enquire Now</a></button>
+                    </form>
+                  </div>
+                </nav>
+              </div>
+            </div>
+          </nav>
+
+          <div class="shipping_banner_box">
+               <div class="container">
+                <div class="row align-items-center">
+                   
+                        <h3>Shipping and delivery</h3>
+
+
+                </div>
+               </div>
+          </div>
+
+
+    </div>
+
+
+<section>
+<div class="shipping_container">
+  <div class="container">
+    <p>Thank you for your interest in Development-cart. Our shipping policy is as follows:</p>
+
+    <div class="shipping_options_div">
+        <h4>SHIPPING OPTIONS:</h4>
+        <p>We offer various shipping options to our customers, including standard ground shipping, expedited shipping, and overnight shipping. The cost and estimated delivery time for each shipping option will be displayed at checkout.</p>
+    </div>
+    <div class="processing_time_div">
+        <h4>PROCESSING TIME:</h4>
+        <p>We strive to process all orders as quickly as possible. Most orders are processed and shipped within 1-2 business days of receiving payment. Orders placed on weekends or holidays will be processed on the next business day.</p>
+    </div>
+      <div class="shipping_time_div">
+          <h4>Shipping TIME:</h4>
+          <p>The estimated delivery time for each shipping option will be displayed at checkout. Please note that these times are estimates only, and actual delivery times may vary depending on the destination and shipping option selected.</p>
+      </div>
+      <div class="shipping_cost_div">
+          <h4>Shipping Costs:</h4>
+          <p>Shipping costs will vary depending on the shipping option selected, the weight of the package, and the destination address. The exact shipping cost will be calculated and displayed at checkout.</p>
+      </div>
+      <div class="tracking_info_div">
+          <h4>Tracking Information:</h4>
+          <p>Once your order has been shipped, you will receive an email with tracking information. You can use this information to track your package online.</p>
+      </div>
+      <div class="international_shipping_div">
+        <h4>International Shipping:</h4>
+        <p>We ship to many international destinations. International shipping costs and delivery times will vary depending on the destination and shipping option selected. Please note that international orders may be subject to customs fees, import duties, and taxes, which are the responsibility of the recipient.</p>
+    </div>
+      <div class="shipping_address_div">
+        <h4>Shipping Address:</h4>
+        <p>Please ensure that the shipping address you provide is correct and complete. We are not responsible for orders that are lost or delayed due to an incorrect or incomplete shipping address. <br> <br>  
+
+          If you have any questions about our shipping policy or need further assistance, please do not hesitate to contact us at info.Development-cart@gmail.com</p>
+    </div>
+   
+   
+
+  </div>
+</div>
+
+</section>
+
+
+
+    <section class="get-in-touch">
+      <div class="container">
+        <h4>Get in Touch</h4>
+        <div class="get-in-touch-info">
+          <div class="top-menu-content container">
+            <div>
+              <svg width="36" height="37" viewBox="0 0 36 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="36" height="36" transform="translate(0 0.5)" fill="#E4F7FF"/>
+                <path opacity="0.4" d="M23.2678 15.061L19.0024 18.4953C18.1952 19.1282 17.0636 19.1282 16.2564 18.4953L11.9543 15.061" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M12.8879 9.5H22.3158C23.6752 9.51525 24.969 10.0899 25.896 11.0902C26.823 12.0905 27.3022 13.429 27.222 14.7941V21.322C27.3022 22.6871 26.823 24.0256 25.896 25.0259C24.969 26.0262 23.6752 26.6009 22.3158 26.6161H12.8879C9.96796 26.6161 8 24.2407 8 21.322V14.7941C8 11.8754 9.96796 9.5 12.8879 9.5Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                
+              <span>info@developmentcart.com</span>
+            </div>
+            <div>
+              <svg width="36" height="37" viewBox="0 0 36 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="36" height="36" transform="translate(0 0.5)" fill="#E4F7FF"/>
+                <path opacity="0.4" d="M20.353 9C24.054 9.411 26.978 12.331 27.393 16.032" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path opacity="0.4" d="M20.353 12.543C22.124 12.887 23.508 14.272 23.853 16.043" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M17.0315 18.9724C21.0205 22.9604 21.9254 18.3467 24.4653 20.8848C26.9138 23.3328 28.3222 23.8232 25.2188 26.9247C24.8302 27.237 22.3613 30.9943 13.6845 22.3197C5.00659 13.644 8.76157 11.1724 9.07394 10.7839C12.1838 7.67385 12.6668 9.08938 15.1154 11.5373C17.6541 14.0765 13.0425 14.9844 17.0315 18.9724Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                
+              <span>+91 9876543210</span>
+            </div>
+            <div>
+              <svg width="36" height="37" viewBox="0 0 36 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="36" height="36" transform="translate(0 0.5)" fill="#E4F7FF"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M10.239 16.8912C10.2534 12.6506 13.7028 9.22465 17.9434 9.23906C22.1839 9.25347 25.6099 12.7028 25.5955 16.9434V17.0304C25.5434 19.7869 24.0042 22.3347 22.1173 24.326C21.0381 25.4466 19.833 26.4387 18.526 27.2825C18.1765 27.5848 17.6581 27.5848 17.3086 27.2825C15.3601 26.0143 13.6499 24.4131 12.2564 22.5521C11.0144 20.9293 10.3092 18.9597 10.239 16.9173L10.239 16.8912Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <circle opacity="0.4" cx="17.9172" cy="17.039" r="2.46087" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                
+              <span
+                >Regency Palace, Scheme no 54, Vijay Nagar, Indore (M.P)</span
+              >s
+            </div>
+          </div>
+        </div>
+        <div class="get-in-touch-container">
+          <div class="row">
+            <div class="col-md-6">
+              <img class="img-fluid" src="./Images/get-in-touch-img.png" alt="">
+            </div>
+            <div class="col-md-6">
+              <form action="">
+                <div class="right-inputes">
+                  <input type="text" placeholder="Your Name" class="form-control">
+                  <input type="text" placeholder="Your Email" class="form-control">
+                  <input type="text" placeholder="Your Phone Number" class="form-control">
+                  <textarea name="textarea" id="textarea" class="form-control large-input" maxlength="100" rows="5" style="width: 100%" placeholder="Enter Text Here..."></textarea>
+                  <div id="count" class="count-textarea">
+                      <span id="current_count">0</span>
+                      <span id="maximum_count">/ 100</span>
+                  </div>
+                  
+                 </div> 
+                 
+                  <div class="btn-div">
+                    <button type="submit" class="btn btn-primary form_btn">Submit</button>
+                  </div>
+                
+                </form>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+      
+
+    </section>
+
+    <footer class="footer-main-container">
+      <div class="container">
+      <div class="foot-container">
+      <div class="footer-card">
+        <h6>About Us</h6>
+        <p>We offer affordable software development and hosting solutions without compromising on quality.</p>
+      </div>
+      <div class="footer-card">
+        <h6>Contact Info</h6>
+        <p>info@developmentcart.com
+        <br>  +91 9876543210 <br>
+          Regency Palace, Scheme no 54, Vijay Nagar, Indore (M.P)</p>
+      </div>
+      <div class="footer-card">
+        <h6>Important Links</h6>
+        <p> <a href="./pages/TermsAndCondition.html"> Terms & Conditions </a> <br>
+          <a href="./PrivicyAndPolicy.html"> Privacy Policies </a> <br>
+          <a href="../pages/TermsAndCondition.html">Shipping and delivery</a>
+          <br>
+           <a href="./Refund_policy.html"> Cancellation and Refund</a> <br>
+           <a href="./ContactUs.html"> Contact Us</a></p>
+      </div>
+      <div class="footer-card">
+        <h6>Newsletter</h6>
+        <p>We offer affordable software development and hosting solutions without compromising on quality.</p>
+        <div class="footer-search">
+          <input class="form-control footer_inp" type="text" placeholder="Email Address" >
+        <button class="btn btn-primary footer_btn">Send</button>
+        </div>
+      
+       
+      
+      </div>
+      
+      
+      </div>
+      <hr>
+      <div class="footer-lower-container">
+        <div>
+         <p>Copyright @2023 All rights reserved by developmentcart</p>
+        </div>
+       
+       
+       <div class="logos">
+ 
+        <img  src="./Images//linkedin.png" alt="">
+        <img src="./Images//twitter.png" alt="">
+        <img src="./Images//instagram.png" alt="">
+        <img src="./Images//facebook.png" alt="">
+               
+ 
+ 
+       </div>
+ 
+     </div>
+
+      
+      
+      </div>
+      
+      
+      </footer>
+         
+      <script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
+         
+      <script type="text/javascript">
+        $('textarea').keyup(function() {    
+            var characterCount = $(this).val().length,
+                current_count = $('#current_count'),
+                maximum_count = $('#maximum_count'),
+                count = $('#count');    
+                current_count.text(characterCount);        
+        });
+        $(window).scroll(function(){
+	$('nav').toggleClass('scrolled', $(this).scrollTop() > 602);
+});
+</script>
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
+  <script src="./scoll.js"></script>
+
+</body>
+</html>
