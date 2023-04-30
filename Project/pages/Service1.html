@@ -20,6 +20,9 @@
   <link rel="stylesheet" href="../scrollbutton.css">
   
     <link rel="stylesheet" href="./service1.css" />
+    <title>Source Remote Developers</title>
+    <link rel="icon" href="../Images/title-logo.png">
+    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
   <button onclick="topFunction()" id="myBtn" title="Go to top">
@@ -132,7 +135,7 @@
             <div class="sec-header">
               <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-light">
-                  <img src="../Images//image-logo.png" alt="" />
+                 <a href="../index.html"> <img src="../Images//image-logo.png" alt="" /></a>
                   <button
                     class="navbar-toggler"
                     type="button"
@@ -160,10 +163,11 @@
                         <a class="nav-link text-light" href="../ContactUs.html">Contact Us</a>
                       </li>
                     </ul>
-                    <form class="form-inline my-2 my-lg-0">
-                      <button class="nav-btn"><a style="background-color:#00AEEF !important;color: #FFFFFF; text-decoration: none !important;" href="../ContactUs.html">Enquire Now</a></button>
-                    </form>
-                  </div>
+                    <div class="form-inline my-2 my-lg-0">
+                      <a style="background-color:#00AEEF !important;color: #FFFFFF; text-decoration: none !important;" href="#touch_with_us"> 
+                        <button class="nav-btn">Enquire Now</button>
+                        </a>
+                    </div>
                 </nav>
               </div>
             </div>
@@ -284,7 +288,7 @@
 
 
 
-    <section class="get-in-touch">
+    <section class="get-in-touch" id="touch_with_us">
       <div class="container">
         <h4>Get in Touch</h4>
         <div class="get-in-touch-info">
@@ -327,12 +331,12 @@
               <img class="img-fluid" src="../Images//get-in-touch-img.png" alt="">
             </div>
             <div class="col-md-6">
-              <form action="">
+              <div>
                 <div class="right-inputes">
-                  <input type="text" placeholder="Your Name" class="form-control">
-                  <input type="text" placeholder="Your Email" class="form-control">
-                  <input type="text" placeholder="Your Phone Number" class="form-control">
-                  <textarea name="textarea" id="textarea" class="form-control large-input" maxlength="100" rows="5" style="width: 100%" placeholder="Enter Text Here..."></textarea>
+                  <input id="inp1" type="text" placeholder="Your Name" class="form-control">
+                  <input id="inp2" type="text" placeholder="Your Email" class="form-control">
+                  <input id="inp3" type="text" placeholder="Your Phone Number" class="form-control">
+                  <textarea  name="textarea" id="textarea" class="form-control large-input" maxlength="100" rows="5" style="width: 100%" placeholder="Enter Text Here..."></textarea>
                   <div id="count" class="count-textarea">
                       <span id="current_count">0</span>
                       <span id="maximum_count">/ 100</span>
@@ -341,10 +345,10 @@
                  </div> 
                  
                   <div class="btn-div">
-                    <button type="submit" class="btn btn-primary form_btn">Submit</button>
+                    <button  onclick="sendEmail()" class="btn btn-primary form_btn">Submit</button>
                   </div>
                 
-                </form>
+                </div>
 
             </div>
           </div>
@@ -383,7 +387,7 @@
         <p>We offer affordable software development and hosting solutions without compromising on quality.</p>
         <div class="footer-search">
           <input class="form-control footer_inp" type="text" placeholder="Email Address">
-        <button class="btn btn-primary footer_btn">Send</button>
+        <button class="footer_btn">Send</button>
         </div>
       
       
@@ -442,5 +446,6 @@
     crossorigin="anonymous"
   ></script>
 <script src="../scoll.js"></script>
+<script src="../sendEmail.js"></script>
 </body>
 </html>

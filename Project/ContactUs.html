@@ -21,6 +21,7 @@
 
   <link rel="stylesheet" href="scrollbutton.css">
     <link rel="stylesheet" href="./pages//service1.css" />
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
   <button onclick="topFunction()" id="myBtn" title="Go to top">
@@ -133,7 +134,7 @@
             <div class="sec-header">
               <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-light">
-                  <img src="./Images/image-logo.png" alt="" />
+                 <a href="./index.html"> <img src="./Images/image-logo.png" alt="" /></a>
                   <button
                     class="navbar-toggler"
                     type="button"
@@ -161,9 +162,9 @@
                         <a class="nav-link text-light" href="#">Contact Us</a>
                       </li>
                     </ul>
-                    <form class="form-inline my-2 my-lg-0">
-                      <button class="nav-btn">Enquire Now</button>
-                    </form>
+                    <div class="form-inline my-2 my-lg-0">
+                     <a href="#touch_with_us"> <button class="nav-btn">Enquire Now</button></a>
+                    </div>
                   </div>
                 </nav>
               </div>
@@ -216,11 +217,11 @@
 
 
 
-    <section class="get-in-touch">
+    <section class="get-in-touch" id="touch_with_us">
       <div class="container">
         <h4>Get in Touch</h4>
         <div class="get-in-touch-info">
-          <div class="top-menu-content container">
+          <div class="top-menu-content container" style="margin-bottom: 20px;" >
             <div>
               <svg width="36" height="37" viewBox="0 0 36 37" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect width="36" height="36" transform="translate(0 0.5)" fill="#E4F7FF"/>
@@ -259,12 +260,12 @@
               <img class="img-fluid" src="./Images//get-in-touch-img.png" alt="">
             </div>
             <div class="col-md-6">
-              <form action="">
+              <div>
                 <div class="right-inputes">
-                  <input type="text" placeholder="Your Name" class="form-control">
-                  <input type="text" placeholder="Your Email" class="form-control">
-                  <input type="text" placeholder="Your Phone Number" class="form-control">
-                  <textarea name="textarea" id="textarea" class="form-control large-input" maxlength="100" rows="5" style="width: 100%" placeholder="Enter Text Here..."></textarea>
+                  <input id="inp1" type="text" placeholder="Your Name" class="form-control">
+                  <input id="inp2" type="text" placeholder="Your Email" class="form-control">
+                  <input id="inp3" type="text" placeholder="Your Phone Number" class="form-control">
+                  <textarea  name="textarea" id="textarea" class="form-control large-input" maxlength="100" rows="5" style="width: 100%" placeholder="Enter Text Here..."></textarea>
                   <div id="count" class="count-textarea">
                       <span id="current_count">0</span>
                       <span id="maximum_count">/ 100</span>
@@ -273,10 +274,10 @@
                  </div> 
                  
                   <div class="btn-div">
-                    <button type="submit" class="btn btn-primary form_btn">Submit</button>
+                    <button  onclick="sendEmail()" class="btn btn-primary form_btn">Submit</button>
                   </div>
                 
-                </form>
+                </div>
 
             </div>
           </div>
@@ -370,5 +371,6 @@
     crossorigin="anonymous"
   ></script>
 <script src="./scoll.js"></script>
+<script src="./sendEmail.js"></script>
 </body>
 </html>

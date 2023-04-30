@@ -19,6 +19,7 @@ function topFunction() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
+
 $(document).ready(function(){
 
     $('textarea').keyup(function() {    
@@ -31,6 +32,6 @@ $(document).ready(function(){
             
     
             $(window).scroll(function(){
-        $('nav').toggleClass('scrolled', $(this).scrollTop() > 602);
+        $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
     });
     });
