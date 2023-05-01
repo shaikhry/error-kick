@@ -753,11 +753,16 @@ margin-top: 24px;
   letter-spacing: -0.015em !important;
   color: #1E1F27 !important;
 }
+
 .map_container{
-  padding-top: 94px;
-  padding-bottom: 0px;
+  /* padding-top: 94px; */
+  padding: 94px 0px;
+ 
   
  
+}
+.map_container .container{
+ /* padding-top: 95px; */
 }
 .map_container img{
   width: 1197.86px;

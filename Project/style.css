@@ -165,33 +165,40 @@
 }
 
   .get-in-touch-container {
-    padding-bottom: 80px;
-  }
-  .get-in-touch .get-in-touch-container .row {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding: 50px;
     box-shadow: 2px 2px 15px rgba(188, 188, 188, 0.2);
     border-radius: 6px;
-    padding-bottom: 50px;
-    padding: 50px;
-  }
-  .get-in-touch .get-in-touch-container .row .col-md-6 {
-    display: flex;
+    
   }
   
-  .get-in-touch .get-in-touch-container .row .col-md-6 img {
-    width: 390.8px;
-    height: 372px;
-    margin-left: 80px;
-  }
-  
-  .get-in-touch .container h4 {
+  .main-container h4{
     font-family: var(--sora-font);
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
     line-height: 40px;
-    margin-top: 94px;
     color: #05060f;
   }
+ 
+  .img-container{ 
+  
+  gap: 24;
+  width: 543px;
+height: 372px;
+  }
+  .img-container img{
+    width: 390.8px;
+    height: 372px;
+    margin-left: 30px;
+
+  }
+  
+
+  
+ 
   
   .right-inputes {
     display: flex;
@@ -199,9 +206,10 @@
     justify-content: right;
     position: relative;
     top: 0;
+    
   }
   .right-inputes input {
-    margin-bottom: 24px;
+    margin-bottom: 24px;  
     width: 543px;
     height: 52px;
   
@@ -232,6 +240,7 @@
   }
   .get-in-touch .top-menu-content {
     background-color: white;
+    margin-bottom: 20px;
   }
   .get-in-touch .top-menu-content span {
     font-family: "Inter";

@@ -6,9 +6,7 @@
   --text-color: #696a6f;
 }
 
-body {
-  min-height: 700vh;
-}
+
 .navbar-default {
   transition: 500ms ease;
   background: transparent;
@@ -38,6 +36,7 @@ body {
 
 .main-conatiner {
   background: linear-gradient(104.79deg, #051c81 0%, #430882 90%);
+  height: 662px;
   
 }
 .nav-btn {
@@ -110,7 +109,7 @@ body {
 }
 .banner_box {
   height: 662px;
-  padding: 19px 0px 131px 0px;
+  /* padding: 19px 0px 131px 0px; */
   background: linear-gradient(104.79deg, #051c81 0%, #430882 100%);
 }
 
@@ -146,13 +145,20 @@ body {
   margin-bottom: 0px;
   padding-bottom: 24px;
 }
-.our-services {
-  padding: 74px 0px;
-  /* margin-top: 74px; */
-}
-.service_nav{
+
+
+.our-services{
   padding: 94px 115px;
+  
+
+  
 }
+
+.h3, .p{
+  position: relative;
+  right: 50px;
+}
+
 .our-services h3 {
   font-family: var(--sora-font);
   color: var(--secondary-color);
@@ -190,18 +196,18 @@ body {
   background-color: #23c3ff;
 }
 
-.services-card-all {
+.services-card-all{
   display: flex;
+  justify-content: center;
   flex-direction: row;
   align-items: flex-end;
   padding: 0px;
   gap: 20px;
 }
 
-.services {
 
-}
-.services .card1 {
+
+.services .card1{
   padding: 16px;
   gap: 24px;
   width: 287.5px;
@@ -317,7 +323,7 @@ body {
 }
 
 .technologies {
-  padding-bottom: 188px;
+  
 }
 .technologies h4 {
   font-style: normal;
@@ -374,18 +380,28 @@ body {
 }
 
 .people-say-container {
+  padding: 94px 0;
+ 
+ 
 }
-.people-say-container .container h4 {
+
+
+  
+
+
+
+.people-say-container .container1 h3 {
   font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 28px;
-  margin-top: 16px;
-  margin-bottom: 0px;
-  letter-spacing: 0.005em;
-  color: #05060f;
+ font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 40px;
+margin-top: 16px;
+margin-bottom: 0px;
+letter-spacing: 0.005em;
+color: #05060f;
 }
-.people-say-container .container .container-p {
+.people-say-container .container1 .container-p {
   font-family: var(--inter-font);
   font-style: normal;
   font-weight: 400;
@@ -399,14 +415,15 @@ body {
 
 .people-say-card {
   display: flex;
-  gap: 40px;
+  gap:40px;
+  justify-content: center;
 }
 .people-say-card .mini-container {
   box-sizing: border-box;
   padding: 20px;
   border: 1px solid #ccd9f5;
   background: #ffffff;
-  gap: 10px;
+
 
   width: 376.67px;
   height: 390px;
@@ -428,8 +445,11 @@ body {
 
 .information {
   margin-left: 10px !important;
+  margin-top: 2px;
   width: 266.67px;
   height: 46px;
+  display: flex;
+  flex-direction: column;
 }
 .information .span1 {
   margin: 0px;
@@ -447,7 +467,7 @@ body {
   margin-bottom: 10px;
   font-family: "Inter";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400; 
   font-size: 14px;
   line-height: 22px;
   color: #696a6f;
@@ -455,6 +475,7 @@ body {
 .small-card img {
   width: 60px;
   height: 60px;
+  margin-bottom: 3px;
 }
 
 
@@ -512,6 +533,28 @@ textarea {
   line-height: 40px;
   font-family: var(--sora-font);
 }
+.people-say-container .container1 .container-p {
+  margin-left: 68px;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: -0.015em;
+color: #1E1F27;
+
+}
+.people-say-container .container1 h4 {
+  margin-left: 68px;
+  font-family: 'Sora';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 40px;
+
+
+color: #05060F;
+}
 .people-say-container h3 {
   font-weight: 700;
   font-size: 32px;
@@ -540,3 +583,139 @@ color: #fff !important;
 fill: white !important;
 transition: ease-in 0.2s all;
 }
+
+
+
+
+
+/* second our services */
+
+
+.our-services2{
+  padding: 94px 115px;
+  
+}
+.our-services2 .service-card2{
+  padding: 16px;
+border: 1px solid #F3F3F3;
+box-shadow: 2px 2px 15px rgba(188, 188, 188, 0.2);
+border-radius: 6px;
+height: 100%;
+/* width: 287.5px; */
+margin-left: 20px;
+
+}
+.our-services2 .col-md-3{
+  padding: 0px;
+}
+
+.our-services2 .service-card2:hover{
+background-color: #23C3FF;
+}
+.our-services2 .service-card2:hover h3 {
+  color: #FFFFFF;
+}
+.our-services2 .service-card2:hover p {
+  color: #FFFFFF;
+}
+.our-services2 .service-card2:hover #svg{
+  fill: white !important;
+  
+}
+
+
+.service-card2 h3{
+  font-family: 'Sora';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+letter-spacing: 0.005em;
+color: #05060F;
+margin-top: 34px;
+}
+.service-card2 p{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+color: #696A6F;
+margin-top: 24px;
+}
+
+
+
+.our-services2 .service-p{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.015em;
+  color: #1E1F27;
+  margin-bottom: 40px;
+  
+}
+
+
+
+
+.people-say-card2{
+  padding: 94px 115px;
+}
+
+.our-services2 .container .service-h3{
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: #05060F;
+  margin-bottom: 16px;
+  
+
+}
+
+
+
+.people-say-card2 .service_card{
+  padding: 20px;
+  background: #FFFFFF;
+border: 1px solid #CCD9F5;
+margin-left: 10px;
+height: 100%;
+}
+.people-say-card2 .service_card #p{
+ height: 194px;
+ font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+color: #696A6F;
+margin-top: 10px;
+}
+
+.people-say-card2 .container h4{
+  font-family: 'Sora';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 40px;
+color: #05060F;
+margin-bottom: 16px;
+}
+.people-say-card2 .container .para{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.015em;
+  color: #1E1F27;
+  
+  
+}
+
+
