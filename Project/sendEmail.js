@@ -4,17 +4,25 @@
 
 function sendEmail() {
  
-
-
   document.getElementById('from').innerHTML=`
-  <div class="alert alert-success" role="alert">
-  Email sent successfully.
-</div>`
+  <div class="alert alert-success" role="alert" style="font-size:15px; height: 40px !important; border:none !important; display:flex !important; align-items:center !important; margin-right:5px">
+ Thank you for filling up the form, We get in touch with you shortly... 
+  </div>`
+
+
   document.getElementById('form').style.color='green'
-let name=document.getElementById("inp1").value
-let myemail=document.getElementById("inp2").value
-let phone=document.getElementById("inp3").value
-let textarea=document.getElementById("textarea").value
+  let name=document.getElementById("inp1").value
+  let myemail=document.getElementById("inp2").value
+  let phone=document.getElementById("inp3").value
+  let textarea=document.getElementById("textarea").value
+
+//   $.post('http://example.com/form.php', {category:'client', type:'premium'}, function(response){ 
+//     alert("success");
+//     $("#mypar").html(response.amount);
+// });
+
+
+
     
 
 
@@ -39,4 +47,12 @@ let textarea=document.getElementById("textarea").value
 
      
     
+  }
+
+  const message=()=>{
+    document.getElementById('messeage').innerHTML=`
+    <div class="alert alert-success" role="alert" style="font-size:15px; height: 45px !important; border:none !important; display:flex !important; align-items:center !important; margin-right:5px">
+    Thank you for filling up the form, We get in touch with you shortly...
+     </div>
+    `
   }

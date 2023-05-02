@@ -19,7 +19,7 @@
 
     <link rel="stylesheet" href="scrollbutton.css">
     <link rel="stylesheet" href="index.css" />
-    <title>  Home</title>
+    <title>Home</title>
     <link rel="icon" href="./Images/title-logo.png">
     <link rel="stylesheet" href="style.css">
   </head>
@@ -60,7 +60,7 @@
                   stroke-linejoin="round"
                 />
               </svg>
-              <span> info@Development-cart.com</span>
+              <span> info@developmentcart.com</span>
             </div>
             <div>
               <svg
@@ -441,9 +441,9 @@
               <img class="img-fluid" src="./Images/w-logo.png" alt="" />
               <img class="img-fluid" src="./Images/javascript-logo.png" alt="" />
               <img class="img-fluid" src="./Images/html-logo.png" alt="" />
-              <img class="img-fluid" src="./Images/salesforce-logo.png" alt="" />
               <img class="img-fluid" src="./Images/css-logo.png" alt="" />
               <img class="img-fluid" src="./Images/express.js-logo.png" alt="" />
+              <img class="img-fluid" src="./Images/vue.js.png" alt="" />
               <img class="img-fluid" src="./Images/salesforce-logo.png" alt="" />
             </div>
           </div>
@@ -613,7 +613,7 @@
            <div>
               <form onsubmit="event.preventDefault(); sendEmail()" >
 
-                <p id="from"></p>
+             
 
                 <div class="right-inputes">
                   <input required id="inp1" type="text" placeholder="Your Name" class="form-control">
@@ -628,7 +628,8 @@
                  </div> 
                  
                   <div class="btn-div">
-                    <button type="submit" class="btn btn-primary form_btn">Submit</button> 
+                      <div class="message_form" id="from"></div>
+                       <button type="submit" class="btn btn-primary form_btn">Submit</button> 
                   </div>
                 
                 </form>
@@ -643,17 +644,7 @@
       </div>
     
     
-      <!-- <div class="container">
-       
-        <div class="get-in-touch-container">
-          <div class="row get-in-touch-row">
-            <div class="col-md-6">
-              <img src="./Images//get-in-touch-img.png" alt="">
-            </div>
-            <div class="col-md-6 get-in-touch-cards">
-              
-          </div>
-        </div> -->
+    
     
       </div>
       
@@ -686,8 +677,11 @@
         <p>We offer affordable software development and hosting solutions without compromising on quality.</p>
         <div class="footer-search">
           <input class="form-control footer_inp" type="text" placeholder="Email Address">
-        <button class="footer_btn">Send</button>
-        </div>
+        <button onclick="message()" class="footer_btn">Send</button> 
+      </div>
+      <div id="messeage" style="margin-top: 5px;">
+     
+      </div>
       
        
       

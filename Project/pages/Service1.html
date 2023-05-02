@@ -59,7 +59,7 @@
                       stroke-linejoin="round"
                     />
                   </svg>
-                  <span> info@Development-cart.com</span>
+                  <span> info@developmentcart.com</span>
                 </div>
                 <div>
                   <svg
@@ -334,7 +334,7 @@
           
           <form onsubmit="event.preventDefault(); sendEmail()" >
 
-            <p id="from"></p>
+           
 
             <div class="right-inputes">
               <input required id="inp1" type="text" placeholder="Your Name" class="form-control">
@@ -349,7 +349,8 @@
              </div> 
              
               <div class="btn-div">
-                <button type="submit" class="btn btn-primary form_btn">Submit</button> 
+                <div class="message_form" id="from"></div>
+                   <button type="submit" class="btn btn-primary form_btn">Submit</button> 
               </div>
             
             </form>
@@ -399,7 +400,10 @@
         <p>We offer affordable software development and hosting solutions without compromising on quality.</p>
         <div class="footer-search">
           <input class="form-control footer_inp" type="text" placeholder="Email Address">
-        <button class="footer_btn">Send</button>
+          <button onclick="message()" class="footer_btn">Send</button> 
+        </div>
+        <div id="messeage" style="margin-top: 5px;">
+       
         </div>
       
       

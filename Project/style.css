@@ -161,7 +161,7 @@
 
 /* Get In Touch CSS */
 .get-in-touch{
-  padding: 94px 115px;
+  padding: 24px 115px;
 }
 
   .get-in-touch-container {
@@ -278,3 +278,10 @@ height: 372px;
     justify-content: right;
   }
   
+
+  .message_form{
+    /* border: 2px solid; */
+    text-align: left;
+  
+ 
+  }

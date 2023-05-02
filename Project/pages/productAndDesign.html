@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product design and development:</title>
+    <title>Product design and development</title>
+    <link rel="icon" href="../Images/title-logo.png">
     <link
     href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
     rel="stylesheet"
@@ -349,6 +350,7 @@
              </div> 
              
               <div class="btn-div">
+                <div class="message_form" id="from"></div>
                 <button type="submit" class="btn btn-primary form_btn">Submit</button> 
               </div>
             
@@ -399,7 +401,10 @@
         <p>We offer affordable software development and hosting solutions without compromising on quality.</p>
         <div class="footer-search">
           <input class="form-control footer_inp" type="text" placeholder="Email Address">
-        <button class="footer_btn">Send</button>
+          <button onclick="message()" class="footer_btn">Send</button> 
+        </div>
+        <div id="messeage" style="margin-top: 5px;">
+       
         </div>
       
       
